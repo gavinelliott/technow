@@ -1,0 +1,5 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^geekpresents.co[nc]
+RewriteRule ^(.*)$ http://www.geekpresents.co/$1 [r=301,nc]
