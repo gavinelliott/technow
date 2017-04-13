@@ -8,4 +8,20 @@ router.get('/', function (req, res) {
 
 // add your routes here
 
+router.post('/chat.html', function (req, res) {
+    console.log(req.body.reporttype);
+    res.redirect(req.body.reporttype);
+})
+
+router.post('/online', function (req, res) {
+    console.log(req.body.reporttype);
+    res.redirect(req.body.reporttype);
+})
+
+router.post('/phone', function (req, res) {
+    console.log(req.body.reporttype);
+    res.redirect(req.body.reporttype);
+})
+
+
 module.exports = router
