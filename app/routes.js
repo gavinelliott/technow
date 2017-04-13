@@ -7,6 +7,10 @@ router.get('/', function (req, res) {
 })
 
 // add your routes here
+router.post('/report-an-issue', function (req, res) {
+    res.redirect(req.body.reporttype);
+})
+
 
 router.post('/chat', function (req, res) {
     console.log(req.body.reporttype);

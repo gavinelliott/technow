@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="column-two-thirds">
+          <h2 class="heading-large">What has happened?</h2>
+          <p>If known, include:</p>
+          <ul>
+            <li>The application you're using</li>
+            <li>Any error messages shown</li>
+          </ul>
+          <br/>
+          <p>Do not include any sensitive information such as staff numbers or citizen details.</p>
+          <form>
+            <div class="form-group">
+              <label class="form-label visually-hidden" for="textarea-a">Label</label>
+              <textarea class="form-control" id="textarea-a" style="width: 450px;" cols="100" rows="6"></textarea>
+            </div>
+          </form>
+          <h2 class="heading-small">Explain the steps leading up to the issue and what is happening now</h2>
+          <form>
+            <div class="form-group">
+              <label class="form-label visually-hidden" for="textarea-a">Label</label>
+              <textarea class="form-control" id="textarea-a" style="width: 450px;" cols="100" rows="6"></textarea>
+            </div>
+          </form>
+          <a class="button" href="affecting" role="button">Continue</a>
+        </div>
+      </div>
+    </div>
+
+
+</main>
+
+{% endblock %}

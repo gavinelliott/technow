@@ -37,3 +37,35 @@ $path: "/public/images/";
 }
 
 .button { background-color: #2C65B0!important; padding-bottom: 8px!important; }
+ul { margin-bottom: 20px; }
+ul li { list-style-type: disc; margin-left: 20px; }
+
+.twitter-typeahead {
+  width: 100%;
+}
+.twitter-typeahead .tt-menu {
+  background: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 4px 4px;
+  outline: 3px solid #FFBF47;
+  outline-offset: -2px;
+  line-height: normal;
+}
+.twitter-typeahead .tt-menu strong {
+  font-weight: bold;
+}
+.twitter-typeahead .tt-menu .tt-selectable {
+  cursor: pointer;
+  margin: 0;
+  padding: 2px;
+}
+.twitter-typeahead .tt-menu .tt-selectable:hover {
+  background-color: #005EA5;
+  color: #fff;
+}
+@media (min-width: 641px) {
+  .twitter-typeahead .tt-menu {
+    max-width: 50%;
+  }
+}
