@@ -8,7 +8,7 @@ router.get('/', function (req, res) {
 
 // add your routes here
 
-router.post('/chat.html', function (req, res) {
+router.post('/chat', function (req, res) {
     console.log(req.body.reporttype);
     res.redirect(req.body.reporttype);
 })
