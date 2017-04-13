@@ -1,8 +1,5 @@
-node_modules
-Procfile
 .DS_Store
-CONTRIBUTING.md
-gulpfile.js
-LICENCE.txt
-server.js
-start.js
+public
+node_modules
+govuk_modules
+lib/govuk_template.html
