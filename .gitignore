@@ -1,2 +1,8 @@
 node_modules
 Procfile
+.DS_Store
+CONTRIBUTING.md
+gulpfile.js
+LICENCE.txt
+server.js
+start.js
