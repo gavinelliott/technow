@@ -10,20 +10,22 @@
     <div class="grid-row">
       <div class="column-full">
         <div class="column-two-thirds">
-          <h2 class="heading-large">Report an issue</h2>
-          <p>Tell us about your issue so that we can make sure the right person deals with it.</p>
-          <h3 class="heading-small">Who are you reporting the issue for?</h3>
+          <h2 class="heading-large">Who is the issue affecting?</h2>
           <form>
             <div class="form-group">
               <fieldset>
 
-                <legend class="visually-hidden">How do you want to be contacted?</legend>
+                <legend class="visually-hidden">Who is the issue affecting?</legend>
 
-                <div class="multiple-choice" data-target="contact-by-email">
-                  <input id="example-contact-by-email" type="radio" name="radio-contact-group" value="Yes">
-                  <label for="example-contact-by-email">Me</label>
+                <div class="multiple-choice" data-target="contact-by-me">
+                  <input id="example-contact-by-me" type="radio" name="radio-contact-group" value="Yes">
+                  <label for="example-contact-by-me">Only me</label>
                 </div>
 
+                <div class="multiple-choice" data-target="contact-by-others">
+                  <input id="example-contact-by-others" type="radio" name="radio-contact-group" value="Yes">
+                  <label for="example-contact-by-others">Me and other people</label>
+                </div>
 
                 <div class="multiple-choice" data-target="contact-by-phone">
                   <input id="example-contact-by-phone" type="radio" name="radio-contact-group" value="No">
@@ -39,14 +41,8 @@
 
           </form>
 
-          <div class="form-group">
-            <label class="form-label-bold" for="full-name-f1">What is the device number?</label>
-            <span class="form-hint">
-              You can find this by selecting the Computer Info icon on your desktop. For example, DWD748575.
-            </span>
-            <input class="form-control" id="full-name-f1" type="text">
-          </div>
-          <a class="button" href="the-issue" role="button">Continue</a>
+
+          <a class="button" href="device-number" role="button">Continue</a>
         </div>
       </div>
     </div>

@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="column-two-thirds">
+          <h2 class="heading-large">What is the device number?</h2>
+          <div class="form-group">
+            <label class="form-label-bold visually-hidden" for="full-name-f1">What is the device number?</label>
+            <span class="form-hint">
+              You can find this by selecting the Computer Info icon on your desktop. For example, DWD748575.
+            </span>
+            <input class="form-control" id="full-name-f1" type="text">
+          </div>
+
+
+          <a class="button" href="the-issue" role="button">Continue</a>
+        </div>
+      </div>
+    </div>
+
+
+</main>
+
+{% endblock %}

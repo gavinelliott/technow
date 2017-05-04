@@ -10,19 +10,33 @@
     <div class="grid-row">
       <div class="column-full">
         <div class="column-two-thirds">
-          <h2 class="heading-large">Give us details about the issue you've experienced</h2>
-          <p>If known, include any error messages shown.</p>
+          <h2 class="heading-large">Tell us details about the issue</h2>
+          <p>Include:
+            <ul class="list-bullet">
+              <li>The business area you work in and your role</li>
+              <li>What you were doing before the error</li>
+              <li>What is happening now</li>
+              <li>Any error messages shown</li>
+            </ul>
+          </p>
 
           <form>
             <div class="form-group">
               <label class="form-label visually-hidden" for="textarea-a">Label</label>
               <span class="form-hint">
-                Do not include any sensitive information such as staff numbers or citizen details.
+                Do not include any sensitive information such as staff numbers or citizen details in this box.
               </span>
               <textarea class="form-control" id="textarea-a" style="width: 450px;" cols="100" rows="6"></textarea>
             </div>
           </form>
 
+          <p>You can attach screenshots or further evidence about the issue. This information will be encrypted.</p>
+          <div class="form-group">
+            <label class="form-label" for="file-input">
+              Upload a file
+            </label>
+            <input type="file" id="file-input">
+          </div>
 
           <a class="button" href="affecting" role="button">Continue</a>
         </div>
