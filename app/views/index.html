@@ -1,43 +1,75 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  Technow
+  GOV.UK prototype kit
 {% endblock %}
 
 {% block content %}
 
 <main id="content" role="main">
-    <div class="grid-row">
-      <div class="column-full">
-        <div class="column-one-half">
-          <h2 class="heading-large"><a href="report-an-issue">Report an issue</a></h2>
-          <p>Tell us that something is broken or not working properly</p>
-        </div>
-
-        <div class="column-one-half">
-          <h2 class="heading-large"><a href="#">Make a request</a></h2>
-          <p>Ask for something you need to do your job, such as access to a folder or some new hardware</p>
-        </div>
-      </div>
+  <div class="grid-row">
+    <div class="column-one-third">
+      <h1 class="heading-medium"><a href="report-an-issue">Report an issue</a></h2>
+      <p>Tell us that something is broken or not working properly</p>
     </div>
 
-    <div class="grid-row">
-      <div class="column-full">
-        <div class="column-one-half">
-          <h2 class="heading-large">My incidents and requests</h2>
-          <p>Check the status of your incidents and requests</p>
-          <ul>
-            <li><a href="#">My incidents</a></li>
-            <li><a href="#">My requests</a></li>
-          </ul>
-        </div>
-        <div class="column-one-half">
-          <h2 class="heading-large"><a href="#">Help and information</a></h2>
-          <p>Find workarounds and help guides</p>
-        </div>
-      </div>
+    <div class="column-one-third">
+      <h2 class="heading-medium"><a href="##">Make a request</a></h2>
+      <p>Ask for something you need to do your job, such as access to a folder or some new hardware</p>
     </div>
 
+    <div class="column-one-third">
+    	<h2 class="heading-medium"><a href="##">Help and information</a></h2>
+      <p>Find workarounds and help guides</p>
+    </div>
+
+    <div class="column-full">
+      <h2 class="heading-medium">My incidents and requests</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">My incidents</th>
+            <th class="numeric" scope="col">Approval</th>
+            <th class="numeric" scope="col">State</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#">REQ5000409</a></td>
+            <td class="numeric">Fixed</td>
+            <td class="numeric">Closed</td>
+          </tr>
+          <tr>
+            <td><a href="#">REQ5000410</a></td>
+            <td class="numeric">Fixed</td>
+            <td class="numeric">Closed</td>
+          </tr>
+        </tbody>
+      </table>
+      <br/><br/>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">My requests</th>
+            <th class="numeric" scope="col">Approval</th>
+            <th class="numeric" scope="col">State</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#">REQ4908409</a></td>
+            <td class="numeric">Approved</td>
+            <td class="numeric">Open</td>
+          </tr>
+          <tr>
+            <td><a href="#">REQ4908410</a></td>
+            <td class="numeric">Approved</td>
+            <td class="numeric">Open</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </main>
 
 {% endblock %}

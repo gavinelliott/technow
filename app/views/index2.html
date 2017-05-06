@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Technow
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="column-one-half">
+          <h2 class="heading-large"><a href="report-an-issue">Report an issue</a></h2>
+          <p>Tell us that something is broken or not working properly</p>
+        </div>
+
+        <div class="column-one-half">
+          <h2 class="heading-large"><a href="#">Make a request</a></h2>
+          <p>Ask for something you need to do your job, such as access to a folder or some new hardware</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-row">
+      <div class="column-full">
+        <div class="column-one-half">
+          <h2 class="heading-large">My incidents and requests</h2>
+          <p>Check the status of your incidents and requests</p>
+          <ul>
+            <li><a href="#">My incidents</a></li>
+            <li><a href="#">My requests</a></li>
+          </ul>
+        </div>
+        <div class="column-one-half">
+          <h2 class="heading-large"><a href="#">Help and information</a></h2>
+          <p>Find workarounds and help guides</p>
+        </div>
+      </div>
+    </div>
+
+</main>
+
+{% endblock %}
